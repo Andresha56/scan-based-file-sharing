@@ -1,0 +1,103 @@
+.radius-5 {
+  border-radius: 5px;
+}
+.primary-button {
+  background-color: #7437ea;
+  border: none;
+  color: white;
+  :hover {
+    background-color: #a59cb7;
+  }
+}
+.default-button {
+  color: #333;
+  background-color: #fff;
+  transition: all 0.2s ease;
+}
+.default-button:hover {
+  background-color: #f2f2f2;
+}
+
+.default-bordered-button {
+  color: #333 !important;
+  background-color: #fff !important;
+  border: 1px solid #cccccc !important;
+  transition: all 0.2s ease;
+}
+.default-bordered-button:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9 !important;
+}
+
+.success-button {
+  color: black !important;
+  background-color: #35b735  !important;
+  border: none;
+  transition: all 0.2s ease;
+}
+.success-button:hover {
+  background-color: #116a11 !important;
+}
+
+.success-bordered-button {
+  background: transparent;
+  border: 1px solid #116a11 !important;
+  color: #116a11;
+  transition: all 0.2s ease;
+}
+.success-bordered-button:hover {
+  background-color: rgba(17, 106, 17, 0.1);
+}
+
+.danger-button {
+  color: #fff !important;
+  background-color: #d9534f !important;
+  border-color: #d43f3a !important;
+  transition: all 0.2s ease;
+}
+.danger-button:hover {
+  background-color: #c9302c !important;
+}
+
+.warning-button {
+  color: #fff !important;
+  background-color: #f0ad4e !important;
+  border-color: #eea236 !important;
+  transition: all 0.2s ease;
+}
+.warning-button:hover {
+  background-color: #ec971f !important;
+}
+
+.info-button {
+  color: #fff !important;
+  background-color: #5bc0de !important;
+  border-color: #46b8da !important;
+  transition: all 0.2s ease;
+}
+.info-button:hover {
+  background-color: #31b0d5 !important;
+}
+
+.transparent-button {
+  background: transparent !important;
+  outline: none !important;
+  transition: all 0.2s ease;
+}
+.transparent-button:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.button {
+  border-radius: 5px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  padding: 6px 22px;
+  font-size: 14px;
+  line-height: 22px;
+  transition: all 0.2s ease;
+}
+.button:focus {
+  outline: none;
+}

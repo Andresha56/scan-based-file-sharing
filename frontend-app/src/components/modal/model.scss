@@ -1,0 +1,16 @@
+.modal {
+  &-wrapper {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(174, 170, 170, 0.3);
+  }
+  &-content {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(245, 247, 250);
+    border-radius: 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+}

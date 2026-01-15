@@ -1,0 +1,22 @@
+module.exports = {
+  avatarStyles: [
+    "lorelei",
+    "adventurer",
+    "adventurer-neutral",
+    "avataaars",
+    "bottts",
+    "notionists",
+    "shapes",
+    "fun-emoji",
+    "big-smile",
+    "croodles",
+    "bottts-neutral",
+    "notionists",
+    "open-peeps",
+    "notionists-neutral",
+    "personas",
+    "micah",
+    "dylan",
+    "big-ears",
+  ],
+};

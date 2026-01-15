@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+frontend-app/node_modules/
+app-backend/node_modules/
+
+# Build outputs
+frontend-app/dist/
+frontend-js/build/
+app-backend/dist/
+app-backend/build/
+
+# Environment variables (secrets)
+.env
+.env.*
+frontend-app/.env*
+app-backend/.env*
+
+# keep example env files
+!.env.example
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Coverage / reports
+coverage/
+
+# Cache / temp
+.cache/
+.vite/
+.next/
+*.tsbuildinfo
+
+# Database / local data
+*.sqlite
+*.db
+data/
+dump/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editors / IDEs
+.vscode/
+.idea/
+
+# Husky (optional)
+.husky/_/

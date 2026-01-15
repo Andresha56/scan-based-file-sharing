@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "module": "ESNext",
+    "paths": {
+      "@components/*": ["./src/components/*"],
+      "@contexts/*": ["./src/contexts/*"],
+      "@queries/*": ["./src/queries/*"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@assets/*": ["./src/assets/*"],
+      "@pages/*": ["./src/pages/*"],
+      "@archetypes/*": ["./src/archetypes/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@config/*": ["./config/*"],
+      "@constants/*": ["./src/constants/*"],
+      "@dialogs/*": ["./src/dialogs/*"],
+      "@layouts/*": ["./src/layouts/*"],
+      "@api/*": ["./src/api/*"],
+      "@query/*": ["./src/query/*"],
+      "@socket/*": ["./src/socket/*"],
+      "@store/*": ["./src/store/*"]
+    },
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "skipLibCheck": true,
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  },
+
+  "include": ["src", "vite.config.ts", ".eslintrc.cjs", "config"]
+}

@@ -1,0 +1,26 @@
+.user-identifier-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(
+    134deg,
+    rgba(219, 219, 219, 1) 0%,
+    rgba(232, 240, 244, 1) 29%,
+    rgba(255, 255, 255, 1) 99%
+  );
+  .file-image-wrapper {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 20px;
+    }
+  }
+}
